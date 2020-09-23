@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aptitudetestquiz">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".difficultverbal1" />
+        <activity android:name=".difficultverbal" />
+        <activity android:name=".difficultpuzzle1" />
+        <activity android:name=".difficultpuzzle" />
+        <activity android:name=".difficultquants1" />
+        <activity android:name=".difficultquants" />
+        <activity android:name=".difficultlogic1" />
+        <activity android:name=".difficultlogic" />
+        <activity android:name=".normalpuzzle1" />
+        <activity android:name=".normalpuzzle" />
+        <activity android:name=".normalverbal1" />
+        <activity android:name=".normalverbal" />
+        <activity android:name=".level4" />
+        <activity android:name=".level3" />
+        <activity android:name=".normallogic1" />
+        <activity android:name=".normallogic" />
+        <activity android:name=".level2" />
+        <activity android:name=".score" />
+        <activity android:name=".normalquants1" />
+        <activity android:name=".normalquants" />
+        <activity android:name=".level1" />
+        <activity android:name=".splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

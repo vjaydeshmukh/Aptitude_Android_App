@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aptitudetestquiz"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="29" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" >
+        <activity android:name="com.example.aptitudetestquiz.MainActivity" />
+        <activity android:name="com.example.aptitudetestquiz.difficultverbal1" />
+        <activity android:name="com.example.aptitudetestquiz.difficultverbal" />
+        <activity android:name="com.example.aptitudetestquiz.difficultpuzzle1" />
+        <activity android:name="com.example.aptitudetestquiz.difficultpuzzle" />
+        <activity android:name="com.example.aptitudetestquiz.difficultquants1" />
+        <activity android:name="com.example.aptitudetestquiz.difficultquants" />
+        <activity android:name="com.example.aptitudetestquiz.difficultlogic1" />
+        <activity android:name="com.example.aptitudetestquiz.difficultlogic" />
+        <activity android:name="com.example.aptitudetestquiz.normalpuzzle1" />
+        <activity android:name="com.example.aptitudetestquiz.normalpuzzle" />
+        <activity android:name="com.example.aptitudetestquiz.normalverbal1" />
+        <activity android:name="com.example.aptitudetestquiz.normalverbal" />
+        <activity android:name="com.example.aptitudetestquiz.level4" />
+        <activity android:name="com.example.aptitudetestquiz.level3" />
+        <activity android:name="com.example.aptitudetestquiz.normallogic1" />
+        <activity android:name="com.example.aptitudetestquiz.normallogic" />
+        <activity android:name="com.example.aptitudetestquiz.level2" />
+        <activity android:name="com.example.aptitudetestquiz.score" />
+        <activity android:name="com.example.aptitudetestquiz.normalquants1" />
+        <activity android:name="com.example.aptitudetestquiz.normalquants" />
+        <activity android:name="com.example.aptitudetestquiz.level1" />
+        <activity android:name="com.example.aptitudetestquiz.splashscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
