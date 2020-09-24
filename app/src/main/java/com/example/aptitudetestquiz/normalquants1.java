@@ -68,8 +68,8 @@ public class normalquants1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        QuizDbHelper dbHelper = new QuizDbHelper(this);
-        questionList=dbHelper.getAllQuestions();
+     DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("normal","quants");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
 

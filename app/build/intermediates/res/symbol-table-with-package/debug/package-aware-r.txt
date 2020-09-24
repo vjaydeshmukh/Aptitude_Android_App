@@ -756,6 +756,7 @@ id bottom
 id button1
 id button2
 id buttonPanel
+id button_database
 id button_logic
 id button_puzzle
 id button_quants

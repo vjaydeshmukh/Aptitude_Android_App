@@ -41,6 +41,7 @@
         <activity android:name="com.example.aptitudetestquiz.normalquants1" />
         <activity android:name="com.example.aptitudetestquiz.normalquants" />
         <activity android:name="com.example.aptitudetestquiz.level1" />
+        <activity android:name="com.example.aptitudetestquiz.AndroidDatabaseManager" />
         <activity android:name="com.example.aptitudetestquiz.splashscreen" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

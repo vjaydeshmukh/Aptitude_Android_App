@@ -68,8 +68,8 @@ public class normallogic1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        QuizDbHelper1 dbHelper = new QuizDbHelper1(this);
-        questionList=dbHelper.getAllQuestions();
+        DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("normal","logic");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
         showNextQuestion();

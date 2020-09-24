@@ -11,7 +11,7 @@
 9-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:5:5-41:19
+11-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
 12-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -94,20 +94,23 @@
 42        <activity android:name="com.example.aptitudetestquiz.level1" />
 42-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:33:9-44
 42-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:33:19-41
-43        <activity android:name="com.example.aptitudetestquiz.splashscreen" >
-43-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:34:9-40:20
-43-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:34:19-47
-44            <intent-filter>
-44-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:35:13-39:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:36:17-69
-45-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:36:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:38:17-77
-47-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:38:27-74
-48            </intent-filter>
-49        </activity>
-50    </application>
-51
-52</manifest>
+43        <activity android:name="com.example.aptitudetestquiz.AndroidDatabaseManager" />
+43-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:34:9-59
+43-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:34:19-57
+44        <activity android:name="com.example.aptitudetestquiz.splashscreen" >
+44-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:35:9-42:20
+44-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:35:19-47
+45            <intent-filter>
+45-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:37:13-41:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:38:17-69
+46-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:40:17-77
+48-->C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:40:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>

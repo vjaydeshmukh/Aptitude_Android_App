@@ -67,8 +67,8 @@ public class normalverbal1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        QuizDbHelper3 dbHelper = new QuizDbHelper3(this);
-        questionList=dbHelper.getAllQuestions();
+        DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("normal","verbal");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
 

@@ -31,7 +31,9 @@
         <activity android:name=".normalquants1" />
         <activity android:name=".normalquants" />
         <activity android:name=".level1" />
+        <activity android:name=".AndroidDatabaseManager"/>
         <activity android:name=".splashscreen">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -67,8 +67,8 @@ public class normalpuzzle1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        QuizDbHelper4 dbHelper = new QuizDbHelper4(this);
-        questionList=dbHelper.getAllQuestions();
+        DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("normal","puzzle");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
 

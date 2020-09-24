@@ -68,8 +68,8 @@ public class difficultquants1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        DBHelperdiff dbHelper = new DBHelperdiff(this);
-        questionList=dbHelper.getAllQuestions();
+        DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("difficult","quants");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
         showNextQuestion();

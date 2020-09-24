@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -20,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     ImageButton button_puzzle;
     ImageButton button_verbal;
     MediaPlayer mysong;
+    private View button_database;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         button_logic=findViewById(R.id.button_logic);
         button_puzzle=findViewById(R.id.button_puzzle);
         button_verbal=findViewById(R.id.button_verbal);
+        button_database = findViewById((R.id.button_database));
 
         button_quants.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -70,6 +73,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent4);
 
             }
+        });
+       button_database.setOnClickListener(new View.OnClickListener(){
+           public  void onClick(View v){
+               Intent intent5 = new Intent(MainActivity.this, AndroidDatabaseManager.class);
+               startActivity(intent5);
+           }
+
         });
     }
 }

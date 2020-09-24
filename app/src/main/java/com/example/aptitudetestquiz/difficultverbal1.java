@@ -67,8 +67,8 @@ public class difficultverbal1 extends AppCompatActivity {
 
         textColorDefaultcd=textViewCountDown.getTextColors();
 
-        DBHelperdiff3 dbHelper = new DBHelperdiff3(this);
-        questionList=dbHelper.getAllQuestions();
+        DBHelper dbHelper = new DBHelper(this);
+        questionList=dbHelper.getQuestions("difficult","verbal");
         questionCountTotal=questionList.size();
         Collections.shuffle(questionList);
         showNextQuestion();
