@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-import static com.example.aptitudetestquiz.normalquants1.EXTRA_SCORE;
+import static com.example.aptitudetestquiz.questionspage.EXTRA_SCORE;
+
 
 public class score extends AppCompatActivity {
 

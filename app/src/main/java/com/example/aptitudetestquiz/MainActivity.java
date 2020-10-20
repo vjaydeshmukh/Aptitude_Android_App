@@ -42,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mp.start();
-                Intent intent1=new Intent(MainActivity.this,level1.class);
+                Intent intent1=new Intent(MainActivity.this,levels.class);
+                String str = "quants";
+                intent1.putExtra("Domain_name",str);
                 startActivity(intent1);
 
             }
@@ -51,7 +53,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mp.start();
-                Intent intent2=new Intent(MainActivity.this,level2.class);
+                Intent intent2=new Intent(MainActivity.this,levels.class);
+                String str = "logic";
+                intent2.putExtra("Domain_name",str);
                 startActivity(intent2);
 
             }
@@ -60,7 +64,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mp.start();
-                Intent intent3=new Intent(MainActivity.this,level3.class);
+                Intent intent3=new Intent(MainActivity.this,levels.class);
+                String str = "verbal";
+                intent3.putExtra("Domain_name",str);
                 startActivity(intent3);
 
             }
@@ -69,7 +75,9 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mp.start();
-                Intent intent4=new Intent(MainActivity.this,level4.class);
+                Intent intent4=new Intent(MainActivity.this,levels.class);
+                String str = "puzzle";
+                intent4.putExtra("Domain_name",str);
                 startActivity(intent4);
 
             }
