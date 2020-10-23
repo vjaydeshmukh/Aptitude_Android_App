@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
-        <activity android:name=".questionspage"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".DomainOptions" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".questionspage" />
         <activity android:name=".instructionpage" />
         <activity android:name=".levels" />
         <activity android:name=".MainActivity" />

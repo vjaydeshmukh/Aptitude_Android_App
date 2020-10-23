@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"    android:orientation="vertical"
+    tools:context=".DomainOptions">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="WELCOME"
+        android:textColor="#009688"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:visibility="visible"
+        app:srcCompat="@drawable/main1" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="25dp"
+            android:id="@+id/button_quants"
+            android:background="@drawable/quants"/>
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="205dp"
+            android:id="@+id/button_verbal"
+            android:background="@drawable/verb"/>
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginLeft="205dp"
+            android:id="@+id/button_logic"
+            android:background="@drawable/logic"/>
+        <ImageButton
+            android:layout_width="140dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="160dp"
+            android:id="@+id/button_puzzle"
+            android:background="@drawable/puzzle"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Database" />
+
+</LinearLayout>

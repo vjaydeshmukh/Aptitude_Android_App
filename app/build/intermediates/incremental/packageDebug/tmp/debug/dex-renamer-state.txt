@@ -1,4 +1,4 @@
-#Tue Oct 20 22:35:46 IST 2020
+#Fri Oct 23 23:03:29 IST 2020
 base.0=C\:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

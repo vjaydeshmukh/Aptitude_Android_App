@@ -7,13 +7,17 @@
     android:orientation="vertical"
     tools:context=".splashscreen">
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="225dp"
-        android:background="@mipmap/ic_launcher1_foreground"
-
-        />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background1"
+        android:fontFamily="@font/dancingscript"
+        android:gravity="center_vertical"
+        android:text="Anywhere Aptitude                        Loading..."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        tools:ignore="RtlCompat" />
 
 </LinearLayout>

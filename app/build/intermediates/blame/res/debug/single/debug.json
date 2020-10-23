@@ -8,16 +8,20 @@
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\layout\\activity_levels.xml"
     },
     {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\font_dancingscript.otf.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\font\\dancingscript.otf"
+    },
+    {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher1.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher1.png"
     },
     {
-        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
-    },
-    {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\raw_click.mp3.flat",
@@ -84,6 +88,10 @@
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\layout\\activity_score.xml"
     },
     {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher1_round.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher1_round.png"
     },
@@ -98,6 +106,10 @@
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_score.jpg.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\drawable-v24\\score.jpg"
+    },
+    {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\font_alexbrush.ttf.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\font\\alexbrush.ttf"
     },
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_ic_launcher_background.png.flat",
@@ -156,6 +168,10 @@
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\font_greatvibes.otf.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\font\\greatvibes.otf"
+    },
+    {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher1_round.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher1_round.png"
     },
@@ -166,6 +182,14 @@
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_quants.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\drawable-v24\\quants.png"
+    },
+    {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_login_background.jpg.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\drawable-v24\\login_background.jpg"
+    },
+    {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_domain_options.xml.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\layout\\activity_domain_options.xml"
     },
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -222,6 +246,10 @@
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher1_background.png.flat",
         "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_launcher1_background.png"
+    },
+    {
+        "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_signup.xml.flat",
+        "source": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\src\\main\\res\\layout\\activity_signup.xml"
     },
     {
         "merged": "C:\\Users\\shivani\\Desktop\\AndroidStudioProjects\\project\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher1_foreground.png.flat",
