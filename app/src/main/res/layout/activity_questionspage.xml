@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".questionspage"
+    android:orientation="vertical"
     android:background="@drawable/background1"
     android:padding="20dp">
-
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
     <TextView
         android:id="@+id/questionno"
         android:layout_width="wrap_content"
@@ -19,7 +22,7 @@
         android:textColor="#00897B"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:fontFamily="cursive" />
+        app:fontFamily="@font/dancingscript" />
 
     <TextView
         android:id="@+id/countdown"
@@ -30,19 +33,19 @@
         android:text="00:30"
         android:textColor="#FAF7F7"
         android:textSize="40sp" />
+</RelativeLayout>
+
     <TextView
         android:id="@+id/question"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Here will be the question in the test"
-        android:textSize="20sp"
         android:layout_below="@+id/questionno"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Here will be the question in the test"
         android:textColor="#FAF7F7"
-        android:textAlignment="center"/>
+        android:textSize="18sp" />
 
     <RadioGroup
-
         android:id="@+id/radiogroup"
         android:layout_below="@id/question"
         android:layout_marginTop="30dp"
@@ -79,23 +82,38 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#FAF7F7"
-            android:text=""
+            android:text="option4"
             android:buttonTint="@color/colorPrimary"/>
 
 
     </RadioGroup>
 
-    <Button
-        android:id="@+id/submit_next"
-        android:layout_width="200dp"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/radiogroup"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="30dp"
-        android:background="#7B5996D4"
-        android:text="SUBMIT"
-        android:textColor="#000505"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="50dp">
+        <Button
+            android:id="@+id/skip"
+            android:layout_marginLeft="30dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="SKIP"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/submit_next"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:background="@drawable/button_border"
+            android:text="SUBMIT"
+            android:textSize="20dp" />
+    </RelativeLayout>
 
-</RelativeLayout>
+
+</LinearLayout>

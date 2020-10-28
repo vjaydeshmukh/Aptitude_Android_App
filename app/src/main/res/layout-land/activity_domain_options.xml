@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".DomainOptions">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/greatvibes"
+        android:gravity="center_horizontal"
+        android:text="Domains"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop = "30dp">
+
+        <TextView
+            android:id="@+id/TextView2"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Quantitative"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+        <TextView
+            android:id="@+id/TextView3"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="230dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Verbal"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/TextView4"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="410dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Logical"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"/>
+        <TextView
+            android:id="@+id/TextView5"
+            android:layout_width="130dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="590dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Puzzle"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#FFFFFF"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/button_quants"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/quants" />
+
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="230dp"
+            android:id="@+id/button_verbal"
+            android:background="@drawable/verb"/>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="410dp"
+            android:id="@+id/button_logic"
+            android:background="@drawable/logic"/>
+        <ImageButton
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginLeft="590dp"
+            android:id="@+id/button_puzzle"
+            android:background="@drawable/puzzle"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Anywhere Aptitude"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/dancingscript"/>
+</LinearLayout>

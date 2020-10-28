@@ -4,65 +4,126 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/mainbackground"    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
     tools:context=".DomainOptions">
 
+
     <TextView
-        android:id="@+id/welcome"
+        android:id="@+id/domains"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/greatvibes"
         android:gravity="center_horizontal"
-        android:text="WELCOME"
-        android:textColor="#009688"
-        android:textSize="30sp"
-        android:textStyle="bold" />
+        android:text="Domains"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
 
-    <ImageView
-        android:id="@+id/image1"
-        android:layout_width="match_parent"
-        android:layout_height="160dp"
-        android:layout_gravity="center_horizontal"
-        android:adjustViewBounds="false"
-        android:cropToPadding="false"
-        android:visibility="visible"
-        app:srcCompat="@drawable/main1" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp">
-        <ImageButton
-            android:layout_width="140dp"
-            android:layout_height="120dp"
-            android:layout_marginLeft="25dp"
-            android:id="@+id/button_quants"
-            android:background="@drawable/quants"/>
-        <ImageButton
-            android:layout_width="140dp"
-            android:layout_height="120dp"
-            android:layout_marginLeft="205dp"
-            android:id="@+id/button_verbal"
-            android:background="@drawable/verb"/>
-        <ImageButton
-            android:layout_width="140dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="160dp"
-            android:layout_marginLeft="205dp"
-            android:id="@+id/button_logic"
-            android:background="@drawable/logic"/>
-        <ImageButton
-            android:layout_width="140dp"
-            android:layout_height="120dp"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="160dp"
-            android:id="@+id/button_puzzle"
-            android:background="@drawable/puzzle"/>
 
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Quantitative"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="220dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Verbal"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
     </RelativeLayout>
 
-    <Button
-        android:id="@+id/button_database"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Database" />
+        android:layout_marginTop="10dp">
 
+        <ImageButton
+            android:id="@+id/button_quants"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/verb" />
+
+        <ImageButton
+            android:id="@+id/button_verbal"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/verb" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Logical"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="220dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center_horizontal"
+            android:text="Puzzle"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp">
+
+        <ImageButton
+            android:id="@+id/button_logic"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/logic" />
+
+        <ImageButton
+            android:id="@+id/button_puzzle"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/puzzle" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/dancingscript"
+        android:gravity="center_horizontal"
+        android:text="Anywhere Aptitude"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
 </LinearLayout>

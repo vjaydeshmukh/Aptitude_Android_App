@@ -5,61 +5,157 @@
     android:id="@+id/scoreboard"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@drawable/mainbackground"
+    android:background="@drawable/login_background"
     android:orientation="vertical"
     tools:context=".score">
+
 
     <TextView
         android:id="@+id/scoreboard1"
         android:layout_width="match_parent"
-        android:layout_height="75dp"
-        android:gravity="center_horizontal"
-        android:text="SCOREBOARD"
-        android:textColor="#00897B"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:fontFamily="cursive" />
-
-    <ImageView
-        android:id="@+id/scoreimage"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="10dp"
-        app:srcCompat="@drawable/score" />
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/greatvibes"
+        android:text="Scoreboard"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp"  />
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/correct"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#00FF00"
+            android:textSize="40dp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/greatvibes"/>
+        <TextView
+           android:id="@+id/skipped"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp"
+            android:layout_marginLeft="160dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/greatvibes"
+            />
+
+        <TextView
+            android:id="@+id/wrong"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="280dp"
+            android:textColor="#FF0000"
+            android:textSize="40dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:fontFamily="@font/greatvibes"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#00FF00"
+            android:textSize="36dp"
+            android:layout_marginLeft="40dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="Correct"
+            android:fontFamily="@font/greatvibes"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:textColor="#FFFFFF"
+            android:textSize="36dp"
+            android:layout_marginLeft="160dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="Skipped"
+            android:fontFamily="@font/greatvibes"
+            />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="280dp"
+            android:textColor="#FF0000"
+            android:textSize="36dp"
+            android:textAlignment="center"
+            android:gravity="center_horizontal"
+            android:text="Wrong"
+            android:fontFamily="@font/greatvibes"/>
+    </RelativeLayout>
     <TextView
-        android:id="@+id/yourscore"
+        android:id="@+id/time_required"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="YOUR SCORE: "
-        android:textColor="#00897B"
-        android:textSize="30sp"
-        app:fontFamily="cursive" />
-
+        android:fontFamily="@font/greatvibes"
+        />
     <TextView
-        android:id="@+id/printscore"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:textSize="36dp"
+        android:textColor="#FFFFFF"
         android:gravity="center_horizontal"
-        android:text="print score"
-        android:textColor="#00897B"
-        android:textSize="30sp" />
+        android:fontFamily="@font/greatvibes"
+        android:text="Time Required"
+        />
 
-    <Button
-        android:id="@+id/anothertest"
-        android:layout_width="wrap_content"
+    <RelativeLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="20dp"
-        android:background="#9E1DCA90"
-        android:text="Take Another Test"
-        android:textColor="#0B0101"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="30dp">
+        <Button
+            android:id="@+id/solutions"
+            android:layout_marginLeft="20dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="SEE SOLUTIONS"
+            android:textSize="20dp"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:gravity="center" />
 
+        <Button
+            android:id="@+id/anothertest"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="210dp"
+            android:background="@drawable/button_border"
+            android:text="TAKE ANOTHER TEST"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+    </RelativeLayout>
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="50dp"
+        app:fontFamily="@font/dancingscript"
+        android:textAlignment= "center"
+        android:layout_gravity="center_horizontal" />
 
 </LinearLayout>

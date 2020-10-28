@@ -5,26 +5,30 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
 public class levels extends AppCompatActivity {
 
+    boolean doubleBackToExistPressedOnce;
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_levels);
         final MediaPlayer mp = MediaPlayer.create(getApplicationContext(), R.raw.click);
-        Button button_normal = findViewById(R.id.button1);
-        Button button_difficult = findViewById(R.id.button2);
+        Button button_easy = findViewById(R.id.easy);
+        Button button_medium = findViewById(R.id.medium);
+        Button button_difficult = findViewById(R.id.difficult);
 
-        Intent intent = getIntent();
+        Button button_gotodomains = findViewById(R.id.back1);
+        final Intent intent = getIntent();
         final String str = intent.getStringExtra("Domain_name");
 
         Toast.makeText(this, "WELCOME TO QUIZ TEST", Toast.LENGTH_SHORT).show();
 
-        button_normal.setOnClickListener(new View.OnClickListener() {
+        button_easy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp.start();
@@ -38,7 +42,9 @@ public class levels extends AppCompatActivity {
         });
 
 
-        button_difficult.setOnClickListener(new View.OnClickListener() {
+
+
+        button_medium.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 mp.start();
@@ -50,5 +56,33 @@ public class levels extends AppCompatActivity {
 
             }
         });
+
+        button_gotodomains.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mp.start();
+                Intent intent4 = new Intent(levels.this, DomainOptions.class);
+                startActivity(intent4);
+            }
+        });
+    }
+
+    @Override
+    public void onBackPressed() {
+        if(doubleBackToExistPressedOnce) {
+            finishAffinity();
+            super.onBackPressed();
+            return;
+        }
+
+        this.doubleBackToExistPressedOnce = true;
+        Toast.makeText(this,"Please click BACK again to exist" , Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doubleBackToExistPressedOnce = false;
+            }
+        },2000);
     }
 }

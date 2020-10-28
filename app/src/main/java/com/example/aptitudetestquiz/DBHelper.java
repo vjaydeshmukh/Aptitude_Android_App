@@ -15,7 +15,7 @@ import java.util.List;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "MyAwesomeQuiz6.db";
+    private static final String DATABASE_NAME = "QuestionDatabase.db";
     private static final int DATABASE_VERSION = 1;
 
     private SQLiteDatabase db;
@@ -606,6 +606,7 @@ public class DBHelper extends SQLiteOpenHelper {
         addQuestion(q70);
     }
 
+    //method to add questions to the database
     private void addQuestion(Question question) {
         ContentValues cv = new ContentValues();
         cv.put(QuizContract.QuestionsTable.COLUMN_QUESTION, question.getQuestion());
@@ -620,6 +621,7 @@ public class DBHelper extends SQLiteOpenHelper {
         db.insert(QuizContract.QuestionsTable.TABLE_NAME,null,cv);
     }
 
+    //Listing all the questions according to the quesry
     public List<Question> getQuestions(String difficulty, String type) {
         List<Question> questionList = new ArrayList<>();
         db = getReadableDatabase();
@@ -642,6 +644,8 @@ public class DBHelper extends SQLiteOpenHelper {
         c.close();
         return questionList;
     }
+
+    //Method required to implement AndroidDatabaseManager
     public ArrayList<Cursor> getData(String Query){
         //get writable database
         SQLiteDatabase sqlDB = this.getWritableDatabase();

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    android:orientation="vertical"
+    tools:context=".instructionpage">
+
+    <TextView
+        android:id="@+id/instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/greatvibes"
+        android:gravity="center_horizontal"
+        android:text="Instructions"
+        android:textColor="#FFFFFF"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/guidelines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text=" ->No of Questions:10 \n ->Time given: 10 mins \n ->Score: 1 mark for each correct question \n ->NO NEGATIVE MARKING \n ->Enter the correct option by clicking on it. \n ->Click START QUIZ to start the test. Click back to select any other test"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:fontFamily="sans-serif" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/back1"
+            android:layout_width="118dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/go_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:layout_marginLeft="455dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/dancingscript"
+            android:gravity="center"
+            android:text="Start"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/start"
+            android:layout_width="118dp"
+            android:layout_height="73dp"
+            android:layout_marginLeft="480dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/go_ahead"
+            />
+
+    </RelativeLayout>
+</LinearLayout>

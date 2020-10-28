@@ -1,12 +1,13 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\3ab6c7451e293b71dc07a4298ad3252e\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\5c432617aa4adab0f3472e31ce90bcab\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\f9efcf756513498c421a6473c57208bd\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\5de5131bc2ba6e7c533f0e104a709757\jetified-MPAndroidChart-v3.1.0-alpha\AndroidManifest.xml:2:1-20:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\ee33317ea302ced898b981014b2ad201\lifecycle-extensions-2.1.0\AndroidManifest.xml:17:1-25:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\4caf23f9cac87ba48d7aef058cdaacd3\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\4a70c5521b1e6efad303a2459f96d5a1\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -41,25 +42,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\shivani\.gradle\
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\c3ab9d8210c96fcfba175ab7f292c9a2\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\2ada330624a5dc4f68c4d92e6c3a8cf8\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\7f2d6e6819c14ac459c26340845b7f94\print-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
-INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-30:12
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:1-37:12
 		INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:5:5-28:19
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:5:5-35:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\3ab6c7451e293b71dc07a4298ad3252e\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\3ab6c7451e293b71dc07a4298ad3252e\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\f9efcf756513498c421a6473c57208bd\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
@@ -75,67 +76,79 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\sh
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\bf7d583a121f16abf62448b689ef79ec\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:8:9-35
 	android:label
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:7:9-42
 	android:roundIcon
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:10:9-54
 	android:icon
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:7:9-44
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:9:9-44
 	android:allowBackup
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:11:9-70
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:11:9-59
+activity#com.example.aptitudetestquiz.Solution
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:12:9-55
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:12:19-43
 activity#com.example.aptitudetestquiz.SignupActivity
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:12:9-61
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:13:9-52
 	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:12:19-49
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:13:19-49
 activity#com.example.aptitudetestquiz.DomainOptions
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:13:9-51
-	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:13:19-48
-activity#com.example.aptitudetestquiz.LoginActivity
 ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:14:9-51
 	android:name
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:14:19-48
-activity#com.example.aptitudetestquiz.questionspage
+activity#com.example.aptitudetestquiz.LoginActivity
 ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:15:19-48
+activity#com.example.aptitudetestquiz.questionspage
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:16:9-18:62
+	android:configChanges
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:18:13-59
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:17:13-42
 activity#com.example.aptitudetestquiz.instructionpage
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:16:9-53
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:19:9-53
 	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:16:19-50
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:19:19-50
 activity#com.example.aptitudetestquiz.levels
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:17:9-44
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:17:19-41
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:20:19-41
 activity#com.example.aptitudetestquiz.MainActivity
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:18:9-50
-	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:18:19-47
-activity#com.example.aptitudetestquiz.score
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:19:9-43
-	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:19:19-40
-activity#com.example.aptitudetestquiz.AndroidDatabaseManager
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:20:9-60
-	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:20:19-57
-activity#com.example.aptitudetestquiz.splashscreen
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:21:9-27:20
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:21:9-50
 	android:name
 		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:21:19-47
+activity#com.example.aptitudetestquiz.score
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:22:9-43
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:22:19-40
+activity#com.example.aptitudetestquiz.AndroidDatabaseManager
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:23:9-60
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:23:19-57
+activity#com.example.aptitudetestquiz.splashscreen
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:24:9-30:20
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:24:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:22:13-26:29
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:23:17-69
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:23:25-66
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:28:27-74
+meta-data#preloaded_fonts
+ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:32:9-34:57
+	android:resource
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:34:13-54
+	android:name
+		ADDED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml:33:13-43
 uses-sdk
 INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\shivani\Desktop\AndroidStudioProjects\project\app\src\main\AndroidManifest.xml
@@ -146,6 +159,8 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\shivani\.gradle\caches
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\5c432617aa4adab0f3472e31ce90bcab\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\f9efcf756513498c421a6473c57208bd\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\f9efcf756513498c421a6473c57208bd\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\5de5131bc2ba6e7c533f0e104a709757\jetified-MPAndroidChart-v3.1.0-alpha\AndroidManifest.xml:16:5-18:41
+MERGED from [com.github.PhilJay:MPAndroidChart:v3.1.0-alpha] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\5de5131bc2ba6e7c533f0e104a709757\jetified-MPAndroidChart-v3.1.0-alpha\AndroidManifest.xml:16:5-18:41
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\ee33317ea302ced898b981014b2ad201\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\ee33317ea302ced898b981014b2ad201\lifecycle-extensions-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\shivani\.gradle\caches\transforms-2\files-2.1\4caf23f9cac87ba48d7aef058cdaacd3\fragment-1.1.0\AndroidManifest.xml:20:5-22:41

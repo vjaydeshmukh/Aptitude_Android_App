@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
@@ -11,32 +12,28 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 public class DomainOptions extends AppCompatActivity {
-
-
     ImageButton button_quants;
     ImageButton button_logic;
     ImageButton button_puzzle;
     ImageButton button_verbal;
-    MediaPlayer mysong;
-    private View button_database;
 
+    private View button_database;
+    boolean doubleBackToExistPressedOnce;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_domain_options);
         final MediaPlayer mp=MediaPlayer.create(getApplicationContext(),R.raw.click);
-        mysong=MediaPlayer.create(getApplicationContext(),R.raw.harry_potter);
-        mysong.setVolume(10,20);
-        mysong.start();
-        mysong.setLooping(true);
+
         button_quants=findViewById(R.id.button_quants);
         button_logic=findViewById(R.id.button_logic);
         button_puzzle=findViewById(R.id.button_puzzle);
         button_verbal=findViewById(R.id.button_verbal);
-        button_database = findViewById((R.id.button_database));
+
 
         button_quants.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -82,12 +79,26 @@ public class DomainOptions extends AppCompatActivity {
 
             }
         });
-        button_database.setOnClickListener(new View.OnClickListener(){
-            public  void onClick(View v){
-                Intent intent5 = new Intent(DomainOptions.this, AndroidDatabaseManager.class);
-                startActivity(intent5);
-            }
 
-        });
     }
+
+    @Override
+    public void onBackPressed() {
+        if(doubleBackToExistPressedOnce) {
+            finishAffinity();
+            super.onBackPressed();
+            return;
+        }
+
+        this.doubleBackToExistPressedOnce = true;
+        Toast.makeText(this,"Please click BACK again to exist" , Toast.LENGTH_SHORT).show();
+
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                doubleBackToExistPressedOnce = false;
+            }
+        },2000);
+    }
+
 }
