@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         Button signup_button = findViewById(R.id.signup);
         datetime = (TextView) findViewById(R.id.datetime);
 
-        Button database = findViewById(R.id.Database);
+
 
         calendar = Calendar.getInstance();
         dateFormat = new SimpleDateFormat("EEE, d MMM, yyyy        hh:mm aaa");
@@ -63,14 +63,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        database.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                mp.start();
-                Intent intent = new Intent(MainActivity.this , AndroidDatabaseManager.class);
-                startActivity(intent);
-            }
-        });
 
     }
 

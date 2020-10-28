@@ -61,10 +61,6 @@
         android:textSize="25dp"
         android:fontFamily="@font/dancingscript"/>
 
-    <Button
-        android:id="@+id/Database"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+
 
 </LinearLayout>

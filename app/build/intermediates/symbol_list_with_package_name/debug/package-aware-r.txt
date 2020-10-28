@@ -1085,7 +1085,6 @@ font greatvibes
 font roboto
 id ALT
 id CTRL
-id Database
 id FUNCTION
 id META
 id SHIFT
